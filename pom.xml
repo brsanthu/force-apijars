@@ -198,5 +198,6 @@
 		<module>force-partner</module>
 		<module>force-tooling</module>
 		<module>force-metadata</module>
+		<!--<module>force-enterprise</module>-->
 	</modules>	
 </project>
