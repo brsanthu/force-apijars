@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1402094125176
+Build-Jdk: 1.6.0_45
+Built-By: kumarsa
+Bundle-Description: This is wsdl2jar compilation of various Force.com ap
+ is wsdls.
+Bundle-DocURL: http://www.brsanthu.com
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: force-tooling
+Bundle-SymbolicName: com.brsanthu.force-tooling
+Bundle-Vendor: brsanthu Inc
+Bundle-Version: 30.0.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.sforce.soap.tooling;uses:="com.sforce.ws,com.sforce.
+ ws.bind,com.sforce.ws.parser,com.sforce.ws.util,javax.xml.namespace,com
+ .sforce.ws.transport";version="30.0.0"
+Implementation-Title: force-tooling
+Implementation-Vendor: brsanthu Inc
+Implementation-Vendor-Id: com.brsanthu
+Implementation-Version: 30.0.0
+Import-Package: com.sforce.ws,com.sforce.ws.bind,com.sforce.ws.parser,co
+ m.sforce.ws.transport,com.sforce.ws.util,javax.xml.namespace
+Specification-Title: force-tooling
+Specification-Vendor: brsanthu Inc
+Specification-Version: 30.0.0
+Tool: Bnd-1.50.0
