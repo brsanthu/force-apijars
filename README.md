@@ -1,14 +1,13 @@
 Overivew
 =============
-Salesforce Force.com team has been kind enough develop WSC [https://github.com/forcedotcom/wsc] which compiles
-the Salesforce wsdls into easy to use Java wrapper. They also been pushing the various wsc compiled
+Salesforce Force.com team has been kind enough develop and provide a great tool WSC [https://github.com/forcedotcom/wsc] which compiles the Salesforce wsdls into an easy to use Java wrapper. They also been pushing wsc compiled
 Jars for various APIs like Apex, Metadata etc.
 
 Some times they are slow to push those wsc compiled binaries and that can hamper the development if you are looking
-to tryout new features.
+to tryout new features soon after a release is announced.
 
 This project aims to publish those wsc compiled jars as soon as they become available. Also, users can clone the project
-to compile them locally and insta-ll the enterprise jars.
+to compile them locally and install the enterprise jars.
 
 Add one or more of followint dependencies.
 ```xml
@@ -49,7 +48,7 @@ As Enterprise Wsdl contains your org specific custom objects/fields, open source
 * Change the version in pom.xml to whatever version you looking to build
 * Execute ```mvn clean install``` which should compile the wsdl into ```force-enterprise-<version>.jar``` and deploy into your local Maven repository
 * Add following dependency to your pom.xml to use the artifact
-```
+```xml
 <dependency>
 	<groupId>com.brsanthu</groupId>
 	<artifactId>force-enterprise</artifactId>
